@@ -1,0 +1,52 @@
+.secondarySection {
+    background-color: #efefef;
+    height: 820px;
+    .heading {
+        @extend .font;
+        color: rgba(253, 41, 64, 0.7);
+        &:hover {
+            color: white;
+        }
+    }
+        .workUnit {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            .workImg {
+                width: 400px;
+                float: left;
+                img {
+                    width: 260px;
+                    height: 275px;
+                    box-shadow: #D6D5CD;
+                    margin: 5px;
+                }
+                h3 {
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: black;
+                    font-family: Candara, sans-serif;
+                }
+                h4 {
+                    font-size: 10px;
+                    font-style: italic;
+                    color: #CACAC4;
+                    font-family: Candara, sans-serif;
+                    margin-top: -10px;
+                }
+            }
+        }
+
+    
+
+    .clearfix:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+}
