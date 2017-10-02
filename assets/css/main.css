@@ -103,7 +103,7 @@ img.img-responsive.card-img-top {
     border-bottom: 2px solid #CACAC4;
     border-radius: 2px;
     text-align: center;
-    color: #392088;
+    color: #337ab7;
     /* padding: 0 208px; */
     margin: 50px 43%;
     font-weight:600;
@@ -189,5 +189,13 @@ footer #icon a img {
 }
 
 h5.title {
+    text-align: center;
+}
+
+.form-group {
+    color: #fff;
+}
+
+.footer-copyright {
     text-align: center;
 }
